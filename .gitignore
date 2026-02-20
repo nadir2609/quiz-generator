@@ -1,0 +1,38 @@
+# Environment variables – NEVER commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
